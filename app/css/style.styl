@@ -1,0 +1,151 @@
+@import "grid/_grid.styl"
+@import 'rupture'
+@import "variable/_function.styl"
+@import "variable/_ie.styl"
+@import "variable/_helper.styl"
+@import "variable/_default.styl"
+@import "variable/config/_color.styl"
+@import "variable/config/_typography.styl"
+@import "variable/config/_btn.styl"
+@import "variable/config/_input.styl"
+@import "../module/**/*"
+
+body
+	@extend .type--main
+	font-family $v-font
+	color $main-text-color
+	line-height 1.2
+	letter-spacing 0.01em
+
+.page
+	height: 100vh
+	overflow hidden
+	background black
+	flex(mid)
+
+.page-content
+	+below(640px)
+		height: 100vh
+	center(1280px,10)
+.slider__el
+	+below(640px)
+		width: 100vw
+		height: 100vh
+		padding: 0
+		&:before
+			content ''
+			display none
+	bg-full()
+	padding: 88% 20%
+	//br(12px)
+	tr(all)
+	cp()
+	margin: 0 auto
+	display: block !important
+	position relative
+	&:before
+		content ''
+		position absolute
+		top 0
+		left 0
+		width: 100%
+		height: 100%
+		background: #11111185
+		opacity: 1
+.slick-center
+	+below(640px)
+		transform: scale(1);
+	transform: scale(1.1);
+	opacity: 1 !important
+	tr()
+	position relative
+	z-index 99
+	.slider__el
+		&:before
+			content ''
+			opacity: 0
+.slider
+	.slick-slide
+		+below(640px)
+			br(0)
+		transition all .8s
+		br(12px)
+		overflow: hidden
+	.slick-list
+		+below(640px)
+			padding: 0 !important
+		padding: 30px 0px!important
+	.slick-slide
+		+below(1024px)
+			margin: 0 10px
+		+below(640px)
+			margin: 0
+
+		margin: 0 30px
+
+//.slick-track
+	//margin-left: -12%
+
+.control-wrap
+	+below(640px)
+		z-index 999
+		position fixed
+		left 0
+		bottom 0
+		width: 100%
+		padding: 10px
+	flex(mid)
+	margin-top: 2%
+.control
+	+below(640px)
+		width: 100%
+	width: 25%
+	f()
+	grid-gap 10px
+.control__el
+	+below(640px)
+		border 1px solid $green
+	height: 6px
+	br(8px)
+	width: 20%
+	background: #ffffff2e
+	position relative
+	flex-grow 1
+	overflow: hidden
+.control__el-progres
+	position absolute
+	top 0
+	left 0
+	background: white
+	height: 100%
+	transform-origin left
+	&.active
+		width: 100%
+		animation animateWidth linear 5s
+		tr(all)
+	&.full
+		width: 100%
+		background: white
+@keyframes animateWidth
+	0%
+		transform scaleX(0)
+	100%
+		transform scaleX(1)
+
+
+// === убираем выделения активности при клик ===
+.slick-slide
+	&:hover
+		outline none!important
+	&:active
+		outline none!important
+	&:focus
+		outline none!important
+// === убираем выделения активности при клике end ===
+
+.box
+	text-align center
+	flex(between)
+	text-align center
+	margin-right auto
+	margin-left: 100px
