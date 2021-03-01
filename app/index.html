@@ -29,51 +29,25 @@
 <!--+radio('Выбрать пункт 1',"list","true",'disable')-->
 
 <body>
-    <style type="text/css">
-        .all-page__el {
-        		padding: 5px;
-        		box-shadow: 0px 3px 8px #e3e3e3;
-        		border-radius: 10px;
-        	}
-        	
-        	.all-page__el:hover {
-        		box-shadow: 0px 3px 3px #e3e3e3;
-        		transition: box-shadow 0.8s;
-        	}
-        	
-        	.all-page__el:hover:hover {
-        		box-shadow: 0 18px 32px #e3e3e3;
-        	}
-        	
-        	.all-page {
-        		display: grid;
-        		grid-gap: 20px;
-        		grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
-        		margin-bottom: 30px;
-        	}
-        	
-        	.all-page__title {
-        		text-align: center;
-        		padding: 10px;
-        		font-size: 16px;
-        		color: #000;
-        	}
-    </style>
-    <div class="main-cont">
-        <h1>Список страниц</h1>
-        <div class="all-page">
-            <a class="all-page__el" href="elements.html">
-                <img src="img/screen/app/elements.png" alt="" />
-                <div class="all-page__info">
-                    <div class="all-page__title">Элементы</div>
+    <div class="page">
+        <div class="page-content">
+            <div class="slider">
+                <div class="slider__el-wrap">
+                    <div class="slider__el" style="background-image:url('img/slide-1.jpg')"></div>
                 </div>
-            </a>
-            <a class="all-page__el" href="main.html">
-                <img src="img/screen/app/main.png" alt="" />
-                <div class="all-page__info">
-                    <div class="all-page__title">Главная</div>
+                <div class="slider__el-wrap">
+                    <div class="slider__el" style="background-image:url('img/slide-2.jpg')"></div>
                 </div>
-            </a>
+                <div class="slider__el-wrap">
+                    <div class="slider__el" style="background-image:url('img/slide-3.jpg')"></div>
+                </div>
+                <div class="slider__el-wrap">
+                    <div class="slider__el" style="background-image:url('img/slide-4.jpg')"></div>
+                </div>
+            </div>
+            <div class="control-wrap">
+                <div class="control"></div>
+            </div>
         </div>
     </div>
     <!--build:js ./js/combined.js-->
