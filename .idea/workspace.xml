@@ -1,36 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="fix radio + checkbox">
+    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="deploys version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/elements.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/error-404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/error-500.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/html/block_html/_svg.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/block_html/_svg.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/html/elements.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/html/error-404.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/html/error-500.pug" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/html/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/html/main.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/html/modal.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/css/sprite.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/css/sprite.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/pack.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/pack.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/svg/arrow-down-fat.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/svg/arrow-down-fat.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/svg/arrow-up-fat.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/svg/arrow-up-fat.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/svg/soc-telegram.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/svg/soc-telegram.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/svg/soc-whatsapp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/svg/soc-whatsapp.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/svg/soc-youtube.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/svg/soc-youtube.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/svg/sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/svg/sprite.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/modal.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/css/sprite.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/pack.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/sprite.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/svg/sprite.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/add-on.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,14 +205,8 @@
       <workItem from="1611667633681" duration="27000" />
       <workItem from="1614345146781" duration="6848000" />
       <workItem from="1614591686615" duration="613000" />
-      <workItem from="1614595369656" duration="297000" />
-    </task>
-    <task id="LOCAL-00005" summary="add new icon">
-      <created>1539342063000</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1539342063000</updated>
+      <workItem from="1614595369656" duration="983000" />
+      <workItem from="1615557585592" duration="334000" />
     </task>
     <task id="LOCAL-00006" summary="fix bower.json">
       <created>1539342810833</created>
@@ -576,7 +544,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604937756063</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="deploys version">
+      <created>1614595751397</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1614595751400</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -617,7 +592,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="add mixin link" />
     <MESSAGE value="fix slide menu" />
     <MESSAGE value="fix btn + animateShow function" />
     <MESSAGE value="add input style" />
@@ -642,6 +616,7 @@
     <MESSAGE value="fix modal + localstorage" />
     <MESSAGE value="fix modal content" />
     <MESSAGE value="fix radio + checkbox" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix radio + checkbox" />
+    <MESSAGE value="deploys version" />
+    <option name="LAST_COMMIT_MESSAGE" value="deploys version" />
   </component>
 </project>
