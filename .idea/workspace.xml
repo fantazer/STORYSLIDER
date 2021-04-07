@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="deploys version">
+    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="add final slide">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/html/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/index.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
@@ -206,14 +206,8 @@
       <workItem from="1614345146781" duration="6848000" />
       <workItem from="1614591686615" duration="613000" />
       <workItem from="1614595369656" duration="983000" />
-      <workItem from="1615557585592" duration="334000" />
-    </task>
-    <task id="LOCAL-00006" summary="fix bower.json">
-      <created>1539342810833</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1539342810833</updated>
+      <workItem from="1615557585592" duration="810000" />
+      <workItem from="1617784862067" duration="159000" />
     </task>
     <task id="LOCAL-00007" summary="fix style modal">
       <created>1540312587482</created>
@@ -551,7 +545,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614595751400</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="add final slide">
+      <created>1615558122248</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1615558122248</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -592,7 +593,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="fix slide menu" />
     <MESSAGE value="fix btn + animateShow function" />
     <MESSAGE value="add input style" />
     <MESSAGE value="fix shrink" />
@@ -617,6 +617,7 @@
     <MESSAGE value="fix modal content" />
     <MESSAGE value="fix radio + checkbox" />
     <MESSAGE value="deploys version" />
-    <option name="LAST_COMMIT_MESSAGE" value="deploys version" />
+    <MESSAGE value="add final slide" />
+    <option name="LAST_COMMIT_MESSAGE" value="add final slide" />
   </component>
 </project>
