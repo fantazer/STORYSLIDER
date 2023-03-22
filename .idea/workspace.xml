@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="add final slide">
+    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="add coupon">
+      <change afterPath="$PROJECT_DIR$/app/html/bonus.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/html/partner.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/bonus-banner.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/story-label-bf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/story-label-smile-glass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/story-label-smile-star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/story-sale-5per.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/story-sale-7per.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/story-sale-bonus.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/style.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/style.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/variable/config/_typography.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/variable/config/_typography.styl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/html/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/index.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/style-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style-min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/script-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/script-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,20 +56,18 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="clone&#9;ACTION&#9;Git.Clone" />
-    <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="add_unversioned_files" value="true" />
-    <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/Web/STORYSLIDER/app/img&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\Web\STORYSLIDER" />
       <recent name="G:\Web\STORYSLIDER\app\img" />
+      <recent name="G:\Web\STORYSLIDER" />
       <recent name="E:\PROJECT\STEND\FRONTEND\app\fonts" />
       <recent name="E:\PROJECT\STEND\FRONTEND\app\img\svg" />
       <recent name="E:\PROJECT\STEND\FRONTEND\app\img" />
@@ -207,14 +223,14 @@
       <workItem from="1614591686615" duration="613000" />
       <workItem from="1614595369656" duration="983000" />
       <workItem from="1615557585592" duration="810000" />
-      <workItem from="1617784862067" duration="159000" />
-    </task>
-    <task id="LOCAL-00007" summary="fix style modal">
-      <created>1540312587482</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1540312587482</updated>
+      <workItem from="1617784862067" duration="979000" />
+      <workItem from="1678375066697" duration="1223000" />
+      <workItem from="1678695955289" duration="1296000" />
+      <workItem from="1678888294318" duration="1972000" />
+      <workItem from="1678951846902" duration="699000" />
+      <workItem from="1678975855093" duration="9353000" />
+      <workItem from="1679038826609" duration="2303000" />
+      <workItem from="1679491508622" duration="2964000" />
     </task>
     <task id="LOCAL-00008" summary="fix bug code comment">
       <created>1540991185457</created>
@@ -552,7 +568,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615558122248</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="add coupon">
+      <created>1617785181048</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1617785181048</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -585,7 +608,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -593,7 +615,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="fix btn + animateShow function" />
     <MESSAGE value="add input style" />
     <MESSAGE value="fix shrink" />
     <MESSAGE value="fix radio" />
@@ -618,6 +639,7 @@
     <MESSAGE value="fix radio + checkbox" />
     <MESSAGE value="deploys version" />
     <MESSAGE value="add final slide" />
-    <option name="LAST_COMMIT_MESSAGE" value="add final slide" />
+    <MESSAGE value="add coupon" />
+    <option name="LAST_COMMIT_MESSAGE" value="add coupon" />
   </component>
 </project>

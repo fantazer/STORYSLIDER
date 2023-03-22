@@ -62,4 +62,6 @@ $(document).ready(function () {
 		});
 	}
 
+	document.documentElement.style.setProperty('--vh', (window.innerHeight*.01) + 'px');
+
 });

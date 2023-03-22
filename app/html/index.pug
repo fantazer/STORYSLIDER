@@ -3,7 +3,7 @@ include block_html/_include.pug
 
 .page
 	.page-content
-		.slider
+		//.slider
 			.slider__el-wrap
 				.slider__el(style="background-image:url('img/slide-1.jpg')")
 			.slider__el-wrap
@@ -14,6 +14,33 @@ include block_html/_include.pug
 				.slider__el(style="background-image:url('img/slide-4.jpg')")
 			a(href="https://letbefit.ru/?coupon=STORIES").slider__el-wrap
 				.slider__el(style="background-image:url('img/slide-5.jpg')")
+		.el
+			.slider-head
+				.slider-head__cat
+					img(src="img/story-label-bf.png", alt="").slider-head__cat-img
+					.slider-head__cat-text Акции
+			.slider
+				.slider__el-wrap
+					.slider__el.bg--orange
+						.story-sale-wrap
+							img(src="img/story-sale-7per.png", alt="").story-sale-img.mb-24
+							.br-20.bg--white.psh-24.psv-16
+								.type--36.type--orange.type--w700.type--center.mb-5 Скидка 7,5%
+								.type--20.type--center при заказе на месяц!
+				.slider__el-wrap
+					.slider__el.bg--purple
+						.story-sale-wrap
+							img(src="img/story-sale-bonus.png", alt="").story-sale-img.mb-24
+							.br-20.bg--white.psh-24.psv-16
+								.type--24.type--purple.type--w700.type--center.mb-5 Копи баллы — <br> питайся бесплатно!
+								.type--20.type--center Бонусная программа <br> для наших клиентов
+				.slider__el-wrap
+					.slider__el.bg--green
+						.story-sale-wrap
+							img(src="img/story-sale-5per.png", alt="").story-sale-img.mb-24
+							.br-20.bg--white.psh-24.psv-16
+								.type--36.type--green.type--w700.type--center.mb-5 Скидка 5%
+								.type--20.type--center за заказ на 2 недели
 		.control-wrap
 			.control
 

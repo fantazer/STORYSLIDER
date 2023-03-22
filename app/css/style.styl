@@ -16,9 +16,227 @@ body
 	color $main-text-color
 	line-height 1.2
 	letter-spacing 0.01em
+// config
+$orange = #FE6B35
+$purple = #982EFF
+$green = #98DA3C
+$greenDark = #1b9b0f
+$blue = #0065BD
+
+.bg--white
+	background: white
+
+.bg--orange
+	background: $orange
+
+.bg--purple
+	background: $purple
+
+.bg--green
+	background: $green
+
+.bg--blue
+	background: $blue
+
+.bg--greenGradient
+	background: linear-gradient(133.3deg, #A4DD00 0%, #6CC100 50%, #00E175 100%);
+
+.bg--full
+	background-size cover
+	background-repeat no-repeat
+	background-position center center
+
+//typography
+.type--36
+	font-size: 36px
+
+.type--24
+	font-size: 24px
+
+.type--20
+	font-size: 20px
+
+.type--16
+	font-size: 16px
+
+.type--12
+	font-size: 12px
+
+.type--10
+	font-size: 10px
+
+.type--w700
+	font-weight: 700
+
+.type--center
+	text-align center
+
+.type--orange
+	color $orange
+
+.type--purple
+	color $purple
+
+.type--green
+	color $green
+
+.type--greenDark
+	color $greenDark
+
+.type--white
+	color white
+
+//input
+.br-20
+	br(20px)
+
+.btn
+	br(32px)
+	tr(all)
+	display inline-block
+	background none
+	border 0
+	text-align: center
+	position relative
+	&:before
+		content ''
+		position absolute
+		width calc(100% + 10px)
+		height calc(100% + 10px)
+		left -5px
+		top -5px
+		br(34px)
+		z-index -1
+	&:hover
+		cursor pointer
+
+.btn--md
+	@extend .btn
+	@extend .type--md
+	padding 17px 48px
+	font-weight: 700
+	.btn-icon-row--right
+		.icon
+			margin-left: 16px
+			margin-right: -24px
+	.btn-icon-row--left
+		.icon
+			margin-right: 16px
+			margin-left: -24px
+	&.btn--full
+		+below(640px)
+			padding: 17px
+
+.btn--white
+	@extend .btn
+	color black
+	background: white
+	font-weight: 700
+	&:hover
+		background: rgba(255, 255, 255, 0.8);
+	.icon
+		fill black
+
+.btn--light
+	@extend .btn
+	border 1px solid $border-color
+	background-color #ffffff
+	.icon
+		fill $mark
+	&:hover,&.active
+		background: $greenLight
+		border 1px solid $mark
+		color $mark
+	&.active
+		background: $greenLight
+		border 1px solid $mark
+		color $mark
+	&:active
+		&:before
+			content ''
+			border 2px solid $greenLight
+	&.disable
+		pointer-events none
+		color $typeDisable!important
+		.icon
+			fill $typeDisable!important
+
+//extend
+
+.psv-24p
+	padding: 24%
+
+.psv-32p
+	padding: 32%
+
+.p-24
+	padding: 24px
+
+.psv-24
+	padding-top: 24px
+	padding-bottom: 24px
+
+.psh-24
+	padding-left: 24px
+	padding-right: 24px
+
+.psv-16
+	padding-top: 16px
+	padding-bottom: 16px
+
+.psh-16
+	padding-left: 16px
+	padding-right: 16px
+
+.mb-5
+	margin-bottom: 5px
+
+.mb-10
+	margin-bottom: 10px
+
+.mb-24
+	margin-bottom: 24px
+
+.mb-a
+	margin-bottom: auto
+
+.mt-24
+	margin-top: 24px
+
+.mt-a
+	margin-top: auto
+
+.w70
+	width: 70%
+
+.w100
+	width: 100%
+
+//helper
+.overflow
+	overflow hidden
+
+.f
+	display: flex
+
+.jcc
+	justify-content center
+
+.f-column
+	flex-flow column
+
+.f-grow
+	flex-grow: 1
+
+.h100
+	height: 100%
+
+// config === end
+
 
 .page
 	height: 100vh
+	//height calc(var(--vh, 1vh) * 100)
 	overflow hidden
 	background black
 	flex(mid)
@@ -91,11 +309,10 @@ body
 		z-index 999
 		position fixed
 		left 0
-		bottom 0
+		top 0
 		width: 100%
 		padding: 10px
 	flex(mid)
-	margin-top: 2%
 .control
 	+below(640px)
 		width: 100%
@@ -104,8 +321,8 @@ body
 	grid-gap 10px
 .control__el
 	+below(640px)
-		border 1px solid $green
-	height: 6px
+		border 1px solid #ffffff2e
+	height: 4px
 	br(8px)
 	width: 20%
 	background: #ffffff2e
@@ -143,9 +360,73 @@ body
 		outline none!important
 // === убираем выделения активности при клике end ===
 
-.box
-	text-align center
-	flex(between)
-	text-align center
-	margin-right auto
-	margin-left: 100px
+.slider-head
+	position absolute
+	top 25px
+	left 10px
+	width: 100%
+	z-index 10
+
+.slider-head__cat
+	f()
+	align-items center
+
+.slider-head__cat-img
+	size 30px
+	margin-right: 10px
+.slider-head__cat-text
+	color white
+
+.story-sale-img
+	width: 100%
+
+.story-sale-wrap
+	height: 100%
+	f()
+	flex-flow column
+	align-items center
+	justify-content center
+
+.h100-mid
+	height: 100%
+	f()
+	flex-flow column
+	align-items center
+	justify-content center
+
+.story-bonus
+	padding: 20% 20px 20px 20px
+	height: 100%
+	f()
+	flex-flow column
+	align-items center
+	justify-content center
+
+.story-bonus-title
+	font-size: 12vw
+
+.story-bonus-text
+	font-size: 5vw
+
+.story-bonus-btn
+	margin-top: 5vw
+
+.scroll-item
+	min-width: 300px
+	margin-right: 16px
+	white-space initial
+
+
+
+.scroll-row-wrap
+	overflow: auto
+	margin-left: -24px
+	margin-right: -24px
+	padding-left: 24px
+	padding-right: 12px
+	padding-bottom: 24px
+	display: grid
+	grid-template-columns: 1fr;
+	position relative
+.scroll-row
+	display: flex

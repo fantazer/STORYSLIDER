@@ -1,0 +1,33 @@
+include block_html/_style.pug
+include block_html/_include.pug
+
+.page
+	.page-content
+		.el
+			.slider-head
+				.slider-head__cat
+					img(src="img/story-label-smile-glass.png", alt="").slider-head__cat-img
+					.slider-head__cat-text Бонусы от партнеров
+			.slider
+				.slider__el-wrap
+					.slider__el.bg--blue
+						.f.f-column.jcc.h100.psh-24
+							.scroll-row-wrap
+								.scroll-row
+									- for (var i=0;i<5;i++)
+									.scroll-item.bg--white.br-12.f.f-column.br-20.overflow
+										.el(style="background-image:url('img/bonus-1.jpg')").bg--full.psv-24p
+										.p-24.f.f-column.f-grow
+											.type--16.f-grow.mb-a 4 урока английского в Skyeng в подарок при первой оплате обучения
+											.btn--md.btn--light.w100.mt-24 Подробнее
+									.scroll-item.bg--white.br-12.f.f-column.br-20.overflow
+										.el(style="background-image:url('img/bonus-1.jpg')").bg--full.psv-24p
+										.p-24.f.f-column.f-grow
+											.type--16.f-grow.mb-a 4 урока английского в Skyeng в подарок при первой оплате обучения .type--16.f-grow.mb-a 4 урока английского в Skyeng в подарок при первой оплате обучения.type--16.f-grow.mb-a 4 урока английского в Skyeng в подарок при первой оплате обучения
+												|
+
+											.btn--md.btn--light.w100.mt-24 Подробнее
+		.control-wrap
+			.control
+
+include ./block_html/_script.pug

@@ -1,0 +1,24 @@
+include block_html/_style.pug
+include block_html/_include.pug
+
+.page
+	.page-content
+		.el
+			.slider-head
+				.slider-head__cat
+					img(src="img/story-label-smile-star.png", alt="").slider-head__cat-img
+					.slider-head__cat-text +500 бонусов
+			.slider
+				.slider__el-wrap
+					.slider__el.bg--greenGradient
+						.story-bonus
+							.story-bonus-title.type--center.type--w700.type--white +500 бонусов
+							.story-bonus-text.type--center.type--w700.type--white за рекомендации друзьям
+							img(src="img/bonus-banner.svg", alt="").psv-24.w100
+							.story-bonus-text.type--center.type--w700.type--white.mb-10 Бонусами можно расплачиваться при заказе питания
+							.story-bonus-text.type--center.type--w700.type--white.mb-10 Оплачивайте <br>до 100% покупки
+							a(href="https://letbefit.ru/aktsii/bonus/").btn.btn--md.btn--white.w100.story-bonus-btn Заработать баллы
+		.control-wrap
+			.control
+
+include ./block_html/_script.pug
