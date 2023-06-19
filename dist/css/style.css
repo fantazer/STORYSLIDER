@@ -2461,6 +2461,9 @@ body {
 .bg--greenGradient {
   background: linear-gradient(133.3deg, #a4dd00 0%, #6cc100 50%, #00e175 100%);
 }
+.bg--blueGradient {
+  background: linear-gradient(180deg, #007be5 0%, #6b33b2 100%);
+}
 .bg--full {
   background-size: cover;
   background-repeat: no-repeat;
@@ -2905,6 +2908,10 @@ body {
 }
 .story-sale-img {
   width: 100%;
+}
+.story-sale-img--vert {
+  width: 85vw;
+  max-width: 270px;
 }
 .story-sale-wrap {
   height: 100%;

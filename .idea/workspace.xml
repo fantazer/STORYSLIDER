@@ -1,28 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="add coupon">
-      <change afterPath="$PROJECT_DIR$/app/html/bonus.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/html/partner.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/bonus-banner.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/story-label-bf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/story-label-smile-glass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/story-label-smile-star.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/story-sale-5per.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/story-sale-7per.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/story-sale-bonus.png" afterDir="false" />
+    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/style.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/style.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/variable/config/_typography.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/variable/config/_typography.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/html/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/style-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style-min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/script-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/script-min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,14 +39,20 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/Web/STORYSLIDER/app/img&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "G:/Web/STORYSLIDER/app/img",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\FANTAZER\\AppData\\Roaming\\npm\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "editing.templates",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\Web\STORYSLIDER\app\img" />
@@ -230,21 +219,9 @@
       <workItem from="1678951846902" duration="699000" />
       <workItem from="1678975855093" duration="9353000" />
       <workItem from="1679038826609" duration="2303000" />
-      <workItem from="1679491508622" duration="2964000" />
-    </task>
-    <task id="LOCAL-00008" summary="fix bug code comment">
-      <created>1540991185457</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1540991185457</updated>
-    </task>
-    <task id="LOCAL-00009" summary="fix checkbox + radio">
-      <created>1542364023332</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1542364023332</updated>
+      <workItem from="1679491508622" duration="4339000" />
+      <workItem from="1686835534867" duration="790000" />
+      <workItem from="1686912852909" duration="4525000" />
     </task>
     <task id="LOCAL-00010" summary="add icons">
       <created>1543309354349</created>
@@ -575,7 +552,21 @@
       <option name="project" value="LOCAL" />
       <updated>1617785181048</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="add new stories">
+      <created>1679496242444</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1679496242444</updated>
+    </task>
+    <task id="LOCAL-00058" summary="add new stories slide">
+      <created>1686925799571</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1686925799571</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -585,15 +576,6 @@
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
     <option name="RECENT_FILTERS">
       <map>
         <entry key="Branch">
@@ -608,6 +590,27 @@
         </entry>
       </map>
     </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -615,8 +618,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="add input style" />
-    <MESSAGE value="fix shrink" />
     <MESSAGE value="fix radio" />
     <MESSAGE value="fix package + gulp" />
     <MESSAGE value="fix location fonts + scripts" />
@@ -640,6 +641,8 @@
     <MESSAGE value="deploys version" />
     <MESSAGE value="add final slide" />
     <MESSAGE value="add coupon" />
-    <option name="LAST_COMMIT_MESSAGE" value="add coupon" />
+    <MESSAGE value="add new stories" />
+    <MESSAGE value="add new stories slide" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new stories slide" />
   </component>
 </project>
