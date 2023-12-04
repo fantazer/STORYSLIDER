@@ -1,0 +1,42 @@
+include block_html/_style.pug
+include block_html/_include.pug
+
+.page
+	.page-content
+		//.slider
+			.slider__el-wrap
+				.slider__el(style="background-image:url('img/slide-1.jpg')")
+			.slider__el-wrap
+				.slider__el(style="background-image:url('img/slide-2.jpg')")
+			.slider__el-wrap
+				.slider__el(style="background-image:url('img/slide-3.jpg')")
+			.slider__el-wrap
+				.slider__el(style="background-image:url('img/slide-4.jpg')")
+			a(href="https://letbefit.ru/?coupon=STORIES").slider__el-wrap
+				.slider__el(style="background-image:url('img/slide-5.jpg')")
+		.el
+			.slider-head
+				.slider-head__cat
+					img(src="img/story-label-star.png", alt="").slider-head__cat-img
+					.slider-head__cat-text Оценка блюд
+			.slider
+				.slider__el-wrap
+					.slider__el.bg--greenGradient
+						.story-sale-wrap
+							.story-bonus-title.type--center.type--w700.type--white.mb-16 Оценивайте блюда —
+							.story-bonus-text.type--center.type--w700.type--white получайте еще более вкусный и сбалансированный рацион
+							img(src="img/rating-1.png", alt="").story-sale-img
+				.slider__el-wrap
+					.slider__el.bg--greenGradient
+						.story-sale-wrap
+							.story-bonus-text.type--center.type--w700.type--white.psh-24.sm__type--14 Ежедневно наши повара с помощью ваших оценок решают, какое меню вас ожидает завтра
+							.f.f-aic.f-jcc
+								img(src="img/rating-2.png", alt="").w70.ml-a.mr-a
+				.slider__el-wrap
+					.slider__el.bg--greenGradient
+						.story-sale-wrap.psh-24
+							img(src="img/rating-3.png", alt="").story-sale-img.mb-24
+		.control-wrap
+			.control
+
+include ./block_html/_script.pug
